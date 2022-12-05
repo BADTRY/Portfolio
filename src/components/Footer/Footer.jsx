@@ -1,7 +1,6 @@
 import "./Footer.scss";
 import { Link } from 'react-router-dom';
 
-
 function Footer() {
     return (
         <footer className="Footer">
@@ -10,7 +9,7 @@ function Footer() {
                 {/* this is the logo design*/}
                 <div className="logo">
                 <Link to="/">
-                    <img src="./Assets/logos.png" alt="footerlogo" />
+                    <img src='./components/Assets/logos.PNG' alt="footerlogos" />
                 </Link>
                     <h1>Lloyd P Concepcion</h1>
                 </div>
