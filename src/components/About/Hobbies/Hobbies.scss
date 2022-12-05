@@ -1,0 +1,79 @@
+.Hobbies{
+    background-color: #181717;
+    height: 100vh;
+
+    .hobbiesbd{
+        color: white;
+        display: flex;
+        margin-top: 300px;
+        width: 1426px;
+        height: 458px;
+        box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 10px;
+        background-color: #302D2D;
+        margin-left: 330px;
+
+        @media (max-width: 1366px ){
+            width: 1026px;
+            height: 338px;
+            margin: 190px 0 0 260px;
+        }
+        @media (max-width: 1800px ) and (min-width: 1366px ){
+            width: 1326px;
+            height: 458px;
+            margin: 250px 0 0 190px;
+        }
+        
+        .right{
+            border-left-style:solid;
+            border-color: white;
+            border-width: 1px;
+            padding: 12px 0px 0px 40px;
+            margin: 100px 0px 0px 200px;
+            flex: 5;
+            max-height: 240px;
+            line-height: 35px;
+
+            @media (max-width: 1366px ){
+                margin: 60px 0px 0px 120px;
+                padding: 10px 0px 0px 40px;
+                max-height: 210px;
+            }
+
+            h1{
+                font-weight: 300;
+                margin-bottom: 20px;
+                font-size: 28px;
+
+                @media (max-width: 1366px ){
+                    margin-bottom: 14px;
+                    font-size: 20px;
+                    font-weight: 600;
+                }
+
+            }
+            p{
+                font-weight: 300;
+                font-size: 16px;
+                font-family: 'Open sans';
+
+                @media (max-width: 1366px ){
+                    margin-bottom: 14px;
+                    font-size: 12px;
+                    line-height: 15px;
+                }
+            }
+        }
+
+        img{
+            flex: 5;
+            height: 458px;
+            max-width: 668.66px;
+
+            @media (max-width: 1366px ){
+                height: 338px;
+                max-width: 100%;
+            }
+        }
+    }   
+}

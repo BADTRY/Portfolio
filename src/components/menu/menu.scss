@@ -1,0 +1,29 @@
+.menu{
+    background-color: #2F2D2D;
+    height: 26vh;
+    width: 100%;
+    position: fixed;
+    right: 0;
+    z-index: 3;
+    top: -200px;
+    transition: all 1s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+
+    &.active{
+        top: 0px;
+        transform-origin: all 1s ease;
+    }
+
+    ul{
+        margin-top: 80px;
+        li{
+            color: white;
+            padding-top: 7px;
+            text-align: center;
+            &:hover{
+                font-size: 17px;
+                font-weight: 800;
+                transition: all 0.5s ease;
+            }
+        }
+    }
+}

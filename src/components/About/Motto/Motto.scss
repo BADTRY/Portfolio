@@ -1,0 +1,147 @@
+.Motto{
+    background-color: #181717;
+    top: 70px;
+    height: 100vh;
+
+    @media (max-width: 1366px ){
+        height: 120vh;
+    }
+    .title{   
+        margin-top: 200px;
+        border-left-style:solid;
+        border-color: white;
+        margin-left: 46%;
+        padding: 15px 0 15px 30px;
+        color: white;
+        border-width: 1px;
+        margin-bottom: 60px;
+
+        @media (max-width: 1366px ){
+            margin-top: 140px;
+        }
+        @media (max-width: 1800px ) and (min-width: 1366px ){
+            margin-left: 43%;
+        }
+
+        h1{
+            font-size: 36px;
+
+            @media (max-width: 1366px ){
+                font-size: 24px;
+            }
+        }
+    }
+
+    .mottolist{
+
+        .firstmotto{
+            color: white;
+            border-left-style:solid;
+            border-color: white;
+            margin-bottom: 70px;
+            margin-left: 10%;  
+            padding-left: 15px;
+
+            @media (max-width: 1366px ){
+                font-size: 24px;
+            }
+            @media (max-width: 1800px ) and (min-width: 1366px ){
+                margin-left: 7%; 
+            }
+
+            h1{                
+                font-size: 18px;
+                font-weight: 300;
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+            
+        }
+        .secondmotto{
+            color: white;
+            margin-bottom: 70px;
+            margin-left: 30%;   
+
+            @media (max-width: 1800px ) and (min-width: 1366px ){
+                margin-left: 30%; 
+            }   
+
+            h1{
+                font-size: 18px;
+                font-weight: 300;
+                border-left-style:solid;
+                border-color: white;
+                padding-left: 15px;  
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+            h6{
+                margin-left: 33%;
+                font-weight: 300;
+                @media (max-width: 1366px ){
+                    font-size: 10px;
+                }
+            }
+
+        }
+        .thirdmotto{
+            color: white;
+            border-left-style:solid;
+            border-color: white;
+            margin-bottom: 70px;
+            margin-left: 60%; 
+            padding-left: 15px;
+
+            @media (max-width: 1800px ) and (min-width: 1366px ){
+                margin-left: 55%; 
+            }
+
+            h1{
+                font-size: 18px;             
+                font-weight: 300;
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+        }
+
+        .btn{
+
+            border-radius: 10px;
+            width: 134px;
+            display: flex;
+            justify-content: center;
+            margin: 0 auto 0 auto;
+            background-color: #181717;
+            color: white;
+            border-width: 1px;
+            border-color: white;
+            padding: 20px 40px 20px 40px;
+
+            @media (max-width: 1366px ){
+                border-radius: 7px;
+                font-size: 12px;
+                padding: 15px 20px 15px 20px;
+            }
+
+            @media (max-width: 1800px ) and (min-width: 1366px ){
+                width: 164px;
+                border-radius: 7px;
+                padding: 18px 20px 18px 20px;
+            }
+
+            &:hover{
+                background-color: white;
+                color: #181717;
+                transition: all 1s ease;
+            }
+              
+        }
+    }
+
+}

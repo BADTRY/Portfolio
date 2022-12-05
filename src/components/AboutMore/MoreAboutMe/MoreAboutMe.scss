@@ -1,0 +1,143 @@
+.MoreAboutMe{
+    background-color: #181717;
+    height: 100vh;
+    
+    .title{
+        border-left-style:solid;
+        border-color: white;
+        margin-top: 150px;
+        margin-left: 290px;
+        padding: 15px 0 15px 30px;
+        color: white;
+        border-width: 1px;
+
+        @media (max-width: 1366px ){
+            margin-left: 12%;
+            margin-top: 20vh;
+        }
+        @media (max-width: 1800px ) and (min-width: 1366px ){
+            margin-left: 7%;
+            margin-top: 20vh;
+        }
+        
+        h1{
+            font-size: 36px;
+
+            @media (max-width: 1366px ){
+                font-size: 20px;
+            }
+        }
+    }
+
+    hr{
+        max-width: 70%;
+        display: flex;
+        margin: 80px auto auto auto;
+
+    }
+
+    .bodytitle{
+        border-left-style:solid;
+        border-color: white;
+        margin-top: 200px;
+        margin-left: 380px;
+        margin-bottom: 30px;
+        padding: 5px 0 5px 5px;
+        color: white;
+        border-width: 1px; 
+
+        @media (max-width: 1366px ){
+            margin: 80px 0 80px 42%;
+        }
+        @media (max-width: 1800px ) and (min-width: 1366px ){
+            margin: 80px 0 50px 19%;
+        }
+
+        h1{
+            font-size: 28px;
+            padding: 0 0 0 10px;
+
+            @media (max-width: 1366px ){
+                padding: 0 0 0 10px;
+                font-size: 16px;
+            }
+        }
+        
+        } 
+
+    .body{
+        
+        width: 1154px;
+        display: flex;
+        margin: 0 20% 0 20%;
+        line-height: 70px;
+
+
+        @media (max-width: 1366px ){
+            line-height: 50px;
+            width: 90%;
+            margin: 0 10% 0 10%;
+
+        }
+        
+            
+        .firstgroup{
+            color: white;
+            flex: 15%;
+            h6{
+                font-size: 20px;
+                font-weight: 300;
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+        }
+        .secondgroup{
+            color: white;
+            flex: 25%;
+            h6{
+                font-weight: 300;
+                font-family: 'Open sans';
+                font-size: 18px;
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+        }
+        .thirdgroup{
+            color: white;
+            font-size: 20px;
+            flex: 15%;
+            h6{
+                font-weight: 300;
+                font-size: 20px;
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+        }
+        .fourthgroup{
+            color: white;
+            font-size: 18px;
+            flex: 25%;
+            h6{
+                font-weight: 300;
+                font-family: 'Open sans';
+                font-size: 18px;
+
+                @media (max-width: 1366px ){
+                    font-size: 14px;
+                }
+            }
+        }
+
+    }
+
+    .body{
+        display: flex;
+        flex-direction: row;
+    }
+}

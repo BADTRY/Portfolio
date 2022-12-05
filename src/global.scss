@@ -1,0 +1,10 @@
+
+$tablet-width: 768px;
+$desktop-width: 1366px;
+
+
+@mixin desktop {
+  @media (min-width: #{$desktop-width}) {
+    @content;
+  }
+}
