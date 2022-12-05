@@ -9,7 +9,7 @@ function Footer() {
                 {/* this is the logo design*/}
                 <div className="logo">
                 <Link to="/">
-                    <img src='./components/Assets/logos.PNG' alt="footerlogos" />
+                    <img src='./components/Assets/logos.PNG' alt="footer" />
                 </Link>
                     <h1>Lloyd P Concepcion</h1>
                 </div>
@@ -17,7 +17,7 @@ function Footer() {
                 {/* this is the logo design*/}
                 <div className="about">
                     <h1>ABOUT</h1>
-                    <p>Its all about portfolio of the student in Holychild central colleges Inc, this is sample of web portfolio and also speacial thanks to MSI, Steelseries and other becuase of picture that i used some of their picture even though i didnt have any rights to use the picture but i use it</p>
+                    <p>this is sample of web portfolio and also speacial thanks to MSI, Steelseries and other becuase of picture that i used some of their picture even though i didnt have any rights to use the picture but i use it</p>
                 </div>
                 <div className="preview">
                     <h1>PREVIEW</h1>
