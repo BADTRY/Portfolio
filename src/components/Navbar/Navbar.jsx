@@ -6,7 +6,9 @@ function Navbar( {nopens, setnopens}) {
     return (
             <nav>
                 <div className={"nav " + (nopens && "active")}>
-                
+                <Link to="/">
+                    <img src='./Assets/Logos.png' className="logo" alt="laters" />
+                </Link>
                 <ul>
                     <Link to="/">
                         <li>HOME</li>
