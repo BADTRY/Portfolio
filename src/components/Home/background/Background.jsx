@@ -7,7 +7,7 @@ function Background() {
     return (
         <div className="background">
         <div className="bgimg">   
-            <img src='./Assets/profile1.PNG' alt="background" /> 
+            <img src="./Assets/Bg2.JPG" alt="background" /> 
             <h1>THINK TRICE BEFORE YOU ACT</h1>
 
             <div className="container">
