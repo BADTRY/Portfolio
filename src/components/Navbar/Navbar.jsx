@@ -1,13 +1,13 @@
 import "./navbar.scss"
 import { Link } from 'react-router-dom';
-//import logo from './Assets/logos.png';
+import logo from './Assets/logos.png';
 
 function Navbar( {nopens, setnopens}) {
     return (
             <nav>
                 <div className={"nav " + (nopens && "active")}>
                 <Link to="/">
-                    <img src="./Assets/Logos.PNG" className="logo" alt="laters" />
+                    <img src={require("./Assets/Logos.PNG").defult} className="logo" alt="laters" />
                 </Link>
                 <ul>
                     <Link to="/">
