@@ -56,7 +56,7 @@ function Skills() {
                     <p> •Knowledge using Microsoft tools like Word, Powerpoint and others</p>
                     <p> •Basic knowledge in editing and designing software like Photoshop, Figma and Filmora</p>
                 </div>
-                <img ref={ref} src="./assets/skill.PNG" alt="skillss" />
+                <img ref={ref} src="./Assets/Skill.PNG" alt="skillss" />
             </motion.div>
             
         </div>
