@@ -9,7 +9,7 @@ function Footer() {
                 {/* this is the logo design*/}
                 <div className="logo">
                 <Link to="/">
-                    <img src="./components/Assets/Logos.PNG" className="logo" alt="footers" />
+                    <img src="./Assets/Logos.PNG" className="logo" alt="laters" />
                 </Link>
                     <h1>Lloyd P Concepcion</h1>
                 </div>
